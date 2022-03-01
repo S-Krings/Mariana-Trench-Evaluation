@@ -1,0 +1,30 @@
+{
+  "model_generators": [
+    {
+      "find": "methods",
+      "where": [
+        {
+        "constraint": "name",
+        "pattern": "sendTextMessage"
+        },
+      ],
+      "model": {
+        "sinks": [
+          {
+            "kind": "SMSCheck",
+            "port": "Argument(2)"
+          },
+          {
+            "kind": "SMSCheck",
+            "port": "Argument(3)"
+          },
+          {
+            "kind": "SMSCheck",
+            "port": "Argument(4)"
+          }
+        ]
+      },
+      "verbosity": 1
+    }
+  ]
+}

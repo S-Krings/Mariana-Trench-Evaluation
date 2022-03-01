@@ -1,0 +1,2012 @@
+{
+  "model_generators": [
+    {
+      "find": "methods",
+      "where": [
+        {
+          "constraint": "any_of",
+          "inners": [
+{ "constraint": "signature",
+   "pattern": "Landroid/accounts/AccountManager;\\.invalidateAuthToken:\\(Ljava/lang/String;Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/animation/ObjectAnimator;\\.setFloatValues:\\(\\[F;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/Activity;\\.onKeyDown:\\(I;Landroid/view/KeyEvent;\\)Z"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/Activity;\\.onCreate:\\(Landroid/os/Bundle;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/Activity;\\.setContentView:\\(Landroid/view/View;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/Activity;\\.setContentView:\\(Landroid/view/View;Landroid/view/ViewGroup/LayoutParams;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/Activity;\\.setContentView:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/Activity;\\.setProgress:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/Activity;\\.setProgressBarIndeterminateVisibility:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/Activity;\\.setProgressBarVisibility:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/Activity;\\.setRequestedOrientation:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/Activity;\\.setTitle:\\(Ljava/lang/CharSequence;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/Activity;\\.startActivity:\\(Landroid/content/Intent;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/Activity;\\.startActivityForResult:\\(Landroid/content/Intent;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/Activity;\\.startIntentSenderForResult:\\(Landroid/content/IntentSender;I;Landroid/content/Intent;I;I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/ActivityManager;\\.getRunningServices:\\(I;\\)Ljava/util/List"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/ActivityManager;\\.getRunningTasks:\\(I;\\)Ljava/util/List"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/AlarmManager;\\.set:\\(I;J;Landroid/app/PendingIntent;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/AlarmManager;\\.setRepeating:\\(I;J;J;Landroid/app/PendingIntent;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/AlertDialog/Builder;\\.setNegativeButton:\\(I;Landroid/content/DialogInterface/OnClickListener;\\)Landroid/app/AlertDialog/Builder"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/AlertDialog/Builder;\\.setNeutralButton:\\(I;Landroid/content/DialogInterface/OnClickListener;\\)Landroid/app/AlertDialog/Builder"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/AlertDialog/Builder;\\.setPositiveButton:\\(I;Landroid/content/DialogInterface/OnClickListener;\\)Landroid/app/AlertDialog/Builder"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/AlertDialog/Builder;\\.setTitle:\\(I;\\)Landroid/app/AlertDialog/Builder"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/AlertDialog;\\.setMessage:\\(Ljava/lang/CharSequence;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/Dialog;\\.setCanceledOnTouchOutside:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/Dialog;\\.setContentView:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/Dialog;\\.setTitle:\\(Ljava/lang/CharSequence;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/DownloadManager/Request;\\.setDestinationInExternalPublicDir:\\(Ljava/lang/String;Ljava/lang/String;\\)Landroid/app/DownloadManager/Request"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/DownloadManager/Request;\\.setShowRunningNotification:\\(Z;\\)Landroid/app/DownloadManager/Request"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/Fragment;\\.startActivity:\\(Landroid/content/Intent;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/Fragment;\\.startActivityForResult:\\(Landroid/content/Intent;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/Notification;\\.setLatestEventInfo:\\(Landroid/content/Context;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Landroid/app/PendingIntent;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/NotificationManager;\\.notify:\\(I;Landroid/app/Notification;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/NotificationManager;\\.notify:\\(Ljava/lang/String;I;Landroid/app/Notification;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/ProgressDialog;\\.setIndeterminate:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/ProgressDialog;\\.setMax:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/ProgressDialog;\\.setMessage:\\(Ljava/lang/CharSequence;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/ProgressDialog;\\.setProgress:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/app/ProgressDialog;\\.setProgressStyle:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/ContentProviderOperation/Builder;\\.withValue:\\(Ljava/lang/String;Ljava/lang/Object;\\)Landroid/content/ContentProviderOperation/Builder"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/ContentProviderOperation/Builder;\\.withValueBackReference:\\(Ljava/lang/String;I;\\)Landroid/content/ContentProviderOperation/Builder"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/ContentProviderOperation;\\.newUpdate:\\(Landroid/net/Uri;\\)Landroid/content/ContentProviderOperation/Builder"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/ContentResolver;\\.notifyChange:\\(Landroid/net/Uri;Landroid/database/ContentObserver;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/ContentUris;\\.parseId:\\(Landroid/net/Uri;\\)J"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/ContentValues;\\.put:\\(Ljava/lang/String;\\[B;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/ContentValues;\\.put:\\(Ljava/lang/String;Ljava/lang/Double;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/ContentValues;\\.put:\\(Ljava/lang/String;Ljava/lang/Float;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/ContentValues;\\.put:\\(Ljava/lang/String;Ljava/lang/Integer;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/ContentValues;\\.put:\\(Ljava/lang/String;Ljava/lang/Long;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/ContentValues;\\.put:\\(Ljava/lang/String;Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/Context;\\.startService:\\(Landroid/content/Intent;\\)Landroid/content/ComponentName"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/Context;\\.startActivity:\\(Landroid/content/Intent;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/ContextWrapper;\\.startActivity:\\(Landroid/content/Intent;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/Intent;\\.createChooser:\\(Landroid/content/Intent;Ljava/lang/CharSequence;\\)Landroid/content/Intent"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/Intent;\\.parseUri:\\(Ljava/lang/String;I;\\)Landroid/content/Intent"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/Intent;\\.putExtra:\\(Ljava/lang/String;Landroid/os/Bundle;\\)Landroid/content/Intent"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/Intent;\\.putExtra:\\(Ljava/lang/String;Landroid/os/Parcelable;\\)Landroid/content/Intent"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/Intent;\\.putExtra:\\(Ljava/lang/String;Z;\\)Landroid/content/Intent"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/Intent;\\.putExtra:\\(Ljava/lang/String;\\[B;\\)Landroid/content/Intent"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/Intent;\\.putExtra:\\(Ljava/lang/String;I;\\)Landroid/content/Intent"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/Intent;\\.putExtra:\\(Ljava/lang/String;Ljava/io/Serializable;\\)Landroid/content/Intent"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/Intent;\\.putExtra:\\(Ljava/lang/String;Ljava/lang/String;\\)Landroid/content/Intent"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/Intent;\\.putExtra:\\(Ljava/lang/String;\\[Ljava/lang/String;\\)Landroid/content/Intent"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/Intent;\\.putExtra:\\(Ljava/lang/String;J;\\)Landroid/content/Intent"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/Intent;\\.putExtras:\\(Landroid/os/Bundle;\\)Landroid/content/Intent"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/Intent;\\.putParcelableArrayListExtra:\\(Ljava/lang/String;Ljava/util/ArrayList;\\)Landroid/content/Intent"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/Intent;\\.putStringArrayListExtra:\\(Ljava/lang/String;Ljava/util/ArrayList;\\)Landroid/content/Intent"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/Intent;\\.setAction:\\(Ljava/lang/String;\\)Landroid/content/Intent"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/Intent;\\.setClass:\\(Landroid/content/Context;Ljava/lang/Class;\\)Landroid/content/Intent"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/Intent;\\.setClassName:\\(Landroid/content/Context;Ljava/lang/String;\\)Landroid/content/Intent"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/Intent;\\.setClassName:\\(Ljava/lang/String;Ljava/lang/String;\\)Landroid/content/Intent"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/Intent;\\.setComponent:\\(Landroid/content/ComponentName;\\)Landroid/content/Intent"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/Intent;\\.setData:\\(Landroid/net/Uri;\\)Landroid/content/Intent"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/Intent;\\.setDataAndType:\\(Landroid/net/Uri;Ljava/lang/String;\\)Landroid/content/Intent"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/Intent;\\.setFlags:\\(I;\\)Landroid/content/Intent"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/Intent;\\.setPackage:\\(Ljava/lang/String;\\)Landroid/content/Intent"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/Intent;\\.setType:\\(Ljava/lang/String;\\)Landroid/content/Intent"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/Intent;\\.writeToParcel:\\(Landroid/os/Parcel;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/IntentFilter;\\.setPriority:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/MutableContextWrapper;\\.setBaseContext:\\(Landroid/content/Context;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/res/AssetManager;\\.openFd:\\(Ljava/lang/String;\\)Landroid/content/res/AssetFileDescriptor"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/res/AssetManager;\\.open:\\(Ljava/lang/String;\\)Ljava/io/InputStream"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/SharedPreferences/Editor;\\.commit:\\(;\\)Z"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/content/UriMatcher;\\.addURI:\\(Ljava/lang/String;Ljava/lang/String;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/database/sqlite/SQLiteDatabase;\\.openOrCreateDatabase:\\(Ljava/io/File;Landroid/database/sqlite/SQLiteDatabase/CursorFactory;\\)Landroid/database/sqlite/SQLiteDatabase"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/database/sqlite/SQLiteDatabase;\\.update:\\(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;\\[Ljava/lang/String;\\)I"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/database/sqlite/SQLiteDatabase;\\.insert:\\(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;\\)J"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/database/sqlite/SQLiteDatabase;\\.replace:\\(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;\\)J"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/database/sqlite/SQLiteQueryBuilder;\\.setTables:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/Bitmap;\\.setDensity:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/Bitmap;\\.setPixels:\\(\\[I;I;I;I;I;I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/Color;\\.parseColor:\\(Ljava/lang/String;\\)I"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/ColorMatrix;\\.set:\\(\\[F;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/drawable/BitmapDrawable;\\.setTargetDensity:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/drawable/Drawable;\\.setBounds:\\(I;I;I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/drawable/GradientDrawable;\\.setColor:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/drawable/GradientDrawable;\\.setCornerRadius:\\(F;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/drawable/GradientDrawable;\\.setGradientType:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/drawable/GradientDrawable;\\.setStroke:\\(I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/drawable/LayerDrawable;\\.setLayerInset:\\(I;I;I;I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/drawable/ShapeDrawable;\\.setShaderFactory:\\(Landroid/graphics/drawable/ShapeDrawable/ShaderFactory;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/drawable/TransitionDrawable;\\.setCrossFadeEnabled:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/Matrix;\\.setRectToRect:\\(Landroid/graphics/RectF;Landroid/graphics/RectF;Landroid/graphics/Matrix/ScaleToFit;\\)Z"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/Matrix;\\.set:\\(Landroid/graphics/Matrix;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/Matrix;\\.setScale:\\(F;F;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/Matrix;\\.setValues:\\(\\[F;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/Paint;\\.setColorFilter:\\(Landroid/graphics/ColorFilter;\\)Landroid/graphics/ColorFilter"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/Paint;\\.setShader:\\(Landroid/graphics/Shader;\\)Landroid/graphics/Shader"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/Paint;\\.setTypeface:\\(Landroid/graphics/Typeface;\\)Landroid/graphics/Typeface"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/Paint;\\.setXfermode:\\(Landroid/graphics/Xfermode;\\)Landroid/graphics/Xfermode"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/Paint;\\.setStrokeCap:\\(Landroid/graphics/Paint/Cap;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/Paint;\\.setStrokeJoin:\\(Landroid/graphics/Paint/Join;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/Paint;\\.setStyle:\\(Landroid/graphics/Paint/Style;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/Paint;\\.setTextAlign:\\(Landroid/graphics/Paint/Align;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/Point;\\.set:\\(I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/Rect;\\.set:\\(Landroid/graphics/Rect;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/Rect;\\.set:\\(I;I;I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/RectF;\\.set:\\(Landroid/graphics/Rect;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/graphics/RectF;\\.set:\\(F;F;F;F;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/location/Criteria;\\.setAccuracy:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/location/Criteria;\\.setAltitudeRequired:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/location/Criteria;\\.setBearingRequired:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/location/Criteria;\\.setCostAllowed:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/location/Criteria;\\.setPowerRequirement:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/location/Criteria;\\.setSpeedRequired:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/location/Location;\\.setLatitude:\\(D;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/location/Location;\\.setLongitude:\\(D;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/location/Location;\\.setTime:\\(J;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/location/LocationManager;\\.addGpsStatusListener:\\(Landroid/location/GpsStatus/Listener;\\)Z"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/location/LocationManager;\\.addNmeaListener:\\(Landroid/location/GpsStatus/NmeaListener;\\)Z"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/location/LocationManager;\\.removeUpdates:\\(Landroid/location/LocationListener;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/location/LocationManager;\\.requestLocationUpdates:\\(Ljava/lang/String;J;F;Landroid/location/LocationListener;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/location/LocationManager;\\.requestLocationUpdates:\\(Ljava/lang/String;J;F;Landroid/location/LocationListener;Landroid/os/Looper;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/media/AudioManager;\\.setRingerMode:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/media/AudioManager;\\.setVibrateSetting:\\(I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/media/ExifInterface;\\.setAttribute:\\(Ljava/lang/String;Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/media/MediaMetadataRetriever;\\.setDataSource:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/media/MediaPlayer;\\.setDataSource:\\(Landroid/content/Context;Landroid/net/Uri;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/media/MediaPlayer;\\.setDataSource:\\(Ljava/io/FileDescriptor;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/media/MediaPlayer;\\.setOnBufferingUpdateListener:\\(Landroid/media/MediaPlayer/OnBufferingUpdateListener;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/media/MediaPlayer;\\.setOnCompletionListener:\\(Landroid/media/MediaPlayer/OnCompletionListener;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/media/MediaPlayer;\\.setOnErrorListener:\\(Landroid/media/MediaPlayer/OnErrorListener;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/media/MediaPlayer;\\.setOnInfoListener:\\(Landroid/media/MediaPlayer/OnInfoListener;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/media/MediaPlayer;\\.setOnPreparedListener:\\(Landroid/media/MediaPlayer/OnPreparedListener;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/media/MediaPlayer;\\.setOnVideoSizeChangedListener:\\(Landroid/media/MediaPlayer/OnVideoSizeChangedListener;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/media/MediaPlayer;\\.setScreenOnWhilePlaying:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/media/MediaPlayer;\\.setSurface:\\(Landroid/view/Surface;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/media/MediaRecorder;\\.setOnInfoListener:\\(Landroid/media/MediaRecorder/OnInfoListener;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/media/MediaRecorder;\\.setOutputFile:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/net/http/AndroidHttpClient;\\.execute:\\(Lorg/apache/http/client/methods/HttpUriRequest;\\)Lorg/apache/http/HttpResponse"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/net/TrafficStats;\\.setThreadStatsTag:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/net/Uri;\\.parse:\\(Ljava/lang/String;\\)Landroid/net/Uri"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/net/wifi/WifiManager;\\.setWifiEnabled:\\(Z;\\)Z"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/AsyncTask;\\.execute:\\(\\[Ljava/lang/Object;\\)Landroid/os/AsyncTask"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/AsyncTask;\\.onPostExecute:\\(Ljava/lang/Object;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Bundle;\\.putAll:\\(Landroid/os/Bundle;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Bundle;\\.putBoolean:\\(Ljava/lang/String;Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Bundle;\\.putBundle:\\(Ljava/lang/String;Landroid/os/Bundle;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Bundle;\\.putByteArray:\\(Ljava/lang/String;\\[B;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Bundle;\\.putDouble:\\(Ljava/lang/String;D;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Bundle;\\.putFloat:\\(Ljava/lang/String;F;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Bundle;\\.putInt:\\(Ljava/lang/String;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Bundle;\\.putIntArray:\\(Ljava/lang/String;\\[I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Bundle;\\.putLong:\\(Ljava/lang/String;J;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Bundle;\\.putParcelable:\\(Ljava/lang/String;Landroid/os/Parcelable;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Bundle;\\.putParcelableArray:\\(Ljava/lang/String;\\[Landroid/os/Parcelable;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Bundle;\\.putParcelableArrayList:\\(Ljava/lang/String;Ljava/util/ArrayList;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Bundle;\\.putSerializable:\\(Ljava/lang/String;Ljava/io/Serializable;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Bundle;\\.putString:\\(Ljava/lang/String;Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Bundle;\\.putStringArrayList:\\(Ljava/lang/String;Ljava/util/ArrayList;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Bundle;\\.setClassLoader:\\(Ljava/lang/ClassLoader;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Bundle;\\.writeToParcel:\\(Landroid/os/Parcel;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Handler;\\.sendEmptyMessage:\\(I;\\)Z"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Handler;\\.sendEmptyMessageDelayed:\\(I;J;\\)Z"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Handler;\\.sendMessage:\\(Landroid/os/Message;\\)Z"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Handler;\\.sendMessageDelayed:\\(Landroid/os/Message;J;\\)Z"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Message;\\.setData:\\(Landroid/os/Bundle;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Messenger;\\.send:\\(Landroid/os/Message;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Parcel;\\.setDataPosition:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Parcel;\\.writeByte:\\(B;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Parcel;\\.writeByteArray:\\(\\[B;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Parcel;\\.writeFloatArray:\\(\\[F;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Parcel;\\.writeIntArray:\\(\\[I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/Parcel;\\.writeStringArray:\\(\\[Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/PowerManager/WakeLock;\\.setWorkSource:\\(Landroid/os/WorkSource;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/StrictMode;\\.setThreadPolicy:\\(Landroid/os/StrictMode/ThreadPolicy;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/StrictMode;\\.setVmPolicy:\\(Landroid/os/StrictMode/VmPolicy;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/os/WorkSource;\\.add:\\(Landroid/os/WorkSource;\\)Z"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/support/v4/content/LocalBroadcastManager;\\.sendBroadcast:\\(Landroid/content/Intent;\\)Z"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/support/v4/content/LocalBroadcastManager;\\.registerReceiver:\\(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/support/v4/view/ViewPager;\\.setCurrentItem:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/telephony/gsm/SmsManager;\\.sendMultipartTextMessage:\\(Ljava/lang/String;Ljava/lang/String;Ljava/util/ArrayList;Ljava/util/ArrayList;Ljava/util/ArrayList;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/telephony/gsm/SmsManager;\\.sendTextMessage:\\(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/app/PendingIntent;Landroid/app/PendingIntent;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/telephony/SmsManager;\\.sendMultipartTextMessage:\\(Ljava/lang/String;Ljava/lang/String;Ljava/util/ArrayList;Ljava/util/ArrayList;Ljava/util/ArrayList;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/telephony/SmsManager;\\.sendTextMessage:\\(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/app/PendingIntent;Landroid/app/PendingIntent;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/util/Log;\\.d:\\(Ljava/lang/String;Ljava/lang/String;\\)I"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/util/Log;\\.d:\\(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;\\)I"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/util/Log;\\.e:\\(Ljava/lang/String;Ljava/lang/String;\\)I"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/util/Log;\\.e:\\(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;\\)I"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/util/Log;\\.i:\\(Ljava/lang/String;Ljava/lang/String;\\)I"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/util/Log;\\.i:\\(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;\\)I"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/util/Log;\\.println:\\(I;Ljava/lang/String;Ljava/lang/String;\\)I"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/util/Log;\\.v:\\(Ljava/lang/String;Ljava/lang/String;\\)I"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/util/Log;\\.v:\\(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;\\)I"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/util/Log;\\.w:\\(Ljava/lang/String;Ljava/lang/String;\\)I"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/util/Log;\\.w:\\(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;\\)I"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/util/Log;\\.w:\\(Ljava/lang/String;Ljava/lang/Throwable;\\)I"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/util/Log;\\.wtf:\\(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;\\)I"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/animation/Animation;\\.setAnimationListener:\\(Landroid/view/animation/Animation/AnimationListener;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/animation/Animation;\\.setDuration:\\(J;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/animation/Animation;\\.setFillAfter:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/animation/Animation;\\.setInterpolator:\\(Landroid/view/animation/Interpolator;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/animation/Animation;\\.setStartTime:\\(J;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/GestureDetector;\\.setOnDoubleTapListener:\\(Landroid/view/GestureDetector/OnDoubleTapListener;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/MotionEvent;\\.setLocation:\\(F;F;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/View;\\.draw:\\(Landroid/graphics/Canvas;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/View;\\.setBackground:\\(Landroid/graphics/drawable/Drawable;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/View;\\.setBackgroundColor:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/View;\\.setBackgroundDrawable:\\(Landroid/graphics/drawable/Drawable;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/View;\\.setBackgroundResource:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/View;\\.setClickable:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/View;\\.setDrawingCacheEnabled:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/View;\\.setEnabled:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/View;\\.setFocusable:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/View;\\.setId:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/View;\\.setLayoutParams:\\(Landroid/view/ViewGroup/LayoutParams;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/View;\\.setOnClickListener:\\(Landroid/view/View/OnClickListener;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/View;\\.setOnLongClickListener:\\(Landroid/view/View/OnLongClickListener;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/View;\\.setOnTouchListener:\\(Landroid/view/View/OnTouchListener;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/View;\\.setSelected:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/View;\\.setTag:\\(I;Ljava/lang/Object;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/View;\\.setTag:\\(Ljava/lang/Object;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/View;\\.setVisibility:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/ViewGroup;\\.setOnHierarchyChangeListener:\\(Landroid/view/ViewGroup/OnHierarchyChangeListener;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/Window;\\.setBackgroundDrawableResource:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/Window;\\.setFlags:\\(I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/Window;\\.setFormat:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/Window;\\.setSoftInputMode:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/view/Window;\\.setType:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setAllowContentAccess:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setAllowFileAccess:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setAppCacheEnabled:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setAppCacheMaxSize:\\(J;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setAppCachePath:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setBlockNetworkImage:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setBuiltInZoomControls:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setCacheMode:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setDatabaseEnabled:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setDatabasePath:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setDefaultTextEncodingName:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setDefaultZoom:\\(Landroid/webkit/WebSettings/ZoomDensity;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setDisplayZoomControls:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setDomStorageEnabled:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setJavaScriptCanOpenWindowsAutomatically:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setJavaScriptEnabled:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setLightTouchEnabled:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setLoadsImagesAutomatically:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setLoadWithOverviewMode:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setMediaPlaybackRequiresUserGesture:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setPluginState:\\(Landroid/webkit/WebSettings/PluginState;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setRenderPriority:\\(Landroid/webkit/WebSettings/RenderPriority;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setSaveFormData:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setSavePassword:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setSupportMultipleWindows:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setSupportZoom:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setUserAgentString:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebSettings;\\.setUseWideViewPort:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebView;\\.addJavascriptInterface:\\(Ljava/lang/Object;Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebView;\\.setBackgroundColor:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebView;\\.setLayoutParams:\\(Landroid/view/ViewGroup/LayoutParams;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebView;\\.setPictureListener:\\(Landroid/webkit/WebView/PictureListener;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebView;\\.setScrollBarStyle:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebView;\\.setWebChromeClient:\\(Landroid/webkit/WebChromeClient;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/webkit/WebView;\\.setWebViewClient:\\(Landroid/webkit/WebViewClient;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/AbsListView;\\.setOnScrollListener:\\(Landroid/widget/AbsListView/OnScrollListener;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/AdapterView;\\.setOnItemClickListener:\\(Landroid/widget/AdapterView/OnItemClickListener;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/AdapterView;\\.setOnItemSelectedListener:\\(Landroid/widget/AdapterView/OnItemSelectedListener;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/ArrayAdapter;\\.setDropDownViewResource:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/CompoundButton;\\.setChecked:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/ExpandableListView;\\.setAdapter:\\(Landroid/widget/ExpandableListAdapter;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/Gallery;\\.setCallbackDuringFling:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/GridView;\\.setAdapter:\\(Landroid/widget/ListAdapter;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/ImageView;\\.setAlpha:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/ImageView;\\.setImageAlpha:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/ImageView;\\.setImageBitmap:\\(Landroid/graphics/Bitmap;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/ImageView;\\.setImageDrawable:\\(Landroid/graphics/drawable/Drawable;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/ImageView;\\.setImageMatrix:\\(Landroid/graphics/Matrix;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/ImageView;\\.setImageResource:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/ImageView;\\.setImageURI:\\(Landroid/net/Uri;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/ImageView;\\.setScaleType:\\(Landroid/widget/ImageView/ScaleType;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/ImageView;\\.setVisibility:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/LinearLayout;\\.setGravity:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/LinearLayout;\\.setOrientation:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/LinearLayout;\\.setVerticalGravity:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/ListView;\\.setAdapter:\\(Landroid/widget/ListAdapter;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/ListView;\\.setDividerHeight:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/ListView;\\.setItemsCanFocus:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/ListView;\\.setSelection:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/ListView;\\.setSelectionFromTop:\\(I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/MediaController;\\.setAnchorView:\\(Landroid/view/View;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/PopupWindow;\\.setClippingEnabled:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/PopupWindow;\\.setOutsideTouchable:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/PopupWindow;\\.setTouchable:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/PopupWindow;\\.update:\\(I;I;I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/ProgressBar;\\.setIndeterminate:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/ProgressBar;\\.setMax:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/ProgressBar;\\.setProgress:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/ProgressBar;\\.setVisibility:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/RadioGroup;\\.setOnCheckedChangeListener:\\(Landroid/widget/RadioGroup/OnCheckedChangeListener;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/RatingBar;\\.setIsIndicator:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/RatingBar;\\.setNumStars:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/RatingBar;\\.setRating:\\(F;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/RatingBar;\\.setStepSize:\\(F;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/RelativeLayout;\\.setGravity:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/RemoteViews;\\.setImageViewBitmap:\\(I;Landroid/graphics/Bitmap;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/RemoteViews;\\.setImageViewResource:\\(I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/RemoteViews;\\.setProgressBar:\\(I;I;I;Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/RemoteViews;\\.setTextViewText:\\(I;Ljava/lang/CharSequence;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/TextView;\\.setEllipsize:\\(Landroid/text/TextUtils/TruncateAt;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/TextView;\\.setGravity:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/TextView;\\.setMaxLines:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/TextView;\\.setPadding:\\(I;I;I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/TextView;\\.setSingleLine:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/TextView;\\.setText:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/TextView;\\.setText:\\(Ljava/lang/CharSequence;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/TextView;\\.setTextAppearance:\\(Landroid/content/Context;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/TextView;\\.setTextColor:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/TextView;\\.setTextSize:\\(F;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/TextView;\\.setTypeface:\\(Landroid/graphics/Typeface;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/TextView;\\.setTypeface:\\(Landroid/graphics/Typeface;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/Toast;\\.makeText:\\(Landroid/content/Context;Ljava/lang/CharSequence;I;\\)Landroid/widget/Toast"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/Toast;\\.setGravity:\\(I;I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/Toast;\\.setText:\\(Ljava/lang/CharSequence;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/VideoView;\\.setMediaController:\\(Landroid/widget/MediaController;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/VideoView;\\.setOnCompletionListener:\\(Landroid/media/MediaPlayer/OnCompletionListener;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/VideoView;\\.setOnErrorListener:\\(Landroid/media/MediaPlayer/OnErrorListener;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/VideoView;\\.setOnPreparedListener:\\(Landroid/media/MediaPlayer/OnPreparedListener;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/VideoView;\\.setVideoPath:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/VideoView;\\.setVideoURI:\\(Landroid/net/Uri;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/ZoomControls;\\.setIsZoomInEnabled:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/ZoomControls;\\.setIsZoomOutEnabled:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/ZoomControls;\\.setOnZoomInClickListener:\\(Landroid/view/View/OnClickListener;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Landroid/widget/ZoomControls;\\.setOnZoomOutClickListener:\\(Landroid/view/View/OnClickListener;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lcom/android/tools/system/MyPostRequest;\\.execute:\\(\\[Ljava/lang/Object;\\)Landroid/os/AsyncTask"
+    },
+{ "constraint": "signature",
+   "pattern": "Lcom/baidu/inf/iis/bcs/BaiduBCS;\\.putObject:\\(Lcom/baidu/inf/iis/bcs/request/PutObjectRequest;\\)Lcom/baidu/inf/iis/bcs/response/BaiduBCSResponse"
+    },
+{ "constraint": "signature",
+   "pattern": "Lcom/example/service/InstallService;\\.startActivity:\\(Landroid/content/Intent;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lcom/movieshow/down/Badaccents;\\.startActivity:\\(Landroid/content/Intent;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lexts/whats/activities/Cards;\\.startService:\\(Landroid/content/Intent;\\)Landroid/content/ComponentName"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/BufferedOutputStream;\\.write:\\(\\[B;I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/BufferedWriter;\\.write:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/DataOutputStream;\\.flush:\\(;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/DataOutputStream;\\.write:\\(\\[B;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/DataOutputStream;\\.write:\\(\\[B;I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/DataOutputStream;\\.writeByte:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/DataOutputStream;\\.writeBytes:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/DataOutputStream;\\.writeUTF:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/File;\\.delete:\\(;\\)Z"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/File;\\.setExecutable:\\(Z;Z;\\)Z"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/File;\\.setLastModified:\\(J;\\)Z"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/File;\\.setReadable:\\(Z;Z;\\)Z"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/File;\\.setWritable:\\(Z;Z;\\)Z"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/FileOutputStream;\\.write:\\(\\[B;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/FileOutputStream;\\.write:\\(\\[B;I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/FileWriter;\\.append:\\(Ljava/lang/CharSequence;\\)Ljava/io/Writer"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/FileWriter;\\.write:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/ObjectOutputStream;\\.writeBoolean:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/ObjectOutputStream;\\.writeByte:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/ObjectOutputStream;\\.writeFloat:\\(F;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/ObjectOutputStream;\\.writeInt:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/ObjectOutputStream;\\.writeLong:\\(J;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/ObjectOutputStream;\\.writeObject:\\(Ljava/lang/Object;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/ObjectOutputStream;\\.writeShort:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/ObjectOutputStream;\\.writeUTF:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/OutputStream;\\.write:\\(\\[B;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/OutputStream;\\.write:\\(\\[B;I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/OutputStreamWriter;\\.append:\\(Ljava/lang/CharSequence;\\)Ljava/io/Writer"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/OutputStreamWriter;\\.write:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/PrintStream;\\.print:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/PrintStream;\\.println:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/PrintStream;\\.println:\\(Ljava/lang/Object;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/PrintStream;\\.write:\\(\\[B;I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/PrintStream;\\.write:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/PrintWriter;\\.append:\\(Ljava/lang/CharSequence;\\)Ljava/io/PrintWriter"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/PrintWriter;\\.print:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/PrintWriter;\\.println:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/PrintWriter;\\.println:\\(Ljava/lang/Object;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/PrintWriter;\\.println:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/PrintWriter;\\.write:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/RandomAccessFile;\\.write:\\(\\[B;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/RandomAccessFile;\\.write:\\(\\[B;I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/RandomAccessFile;\\.writeDouble:\\(D;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/RandomAccessFile;\\.writeFloat:\\(F;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/Writer;\\.append:\\(C;\\)Ljava/io/Writer"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/Writer;\\.write:\\(\\[C;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/io/Writer;\\.write:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/Boolean;\\.parseBoolean:\\(Ljava/lang/String;\\)Z"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/Byte;\\.parseByte:\\(Ljava/lang/String;\\)B"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/Class;\\.forName:\\(Ljava/lang/String;\\)Ljava/lang/Class"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/Double;\\.parseDouble:\\(Ljava/lang/String;\\)D"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/Float;\\.parseFloat:\\(Ljava/lang/String;\\)F"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/Integer;\\.parseInt:\\(Ljava/lang/String;\\)I"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/Integer;\\.parseInt:\\(Ljava/lang/String;I;\\)I"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/Long;\\.parseLong:\\(Ljava/lang/String;\\)J"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/Long;\\.parseLong:\\(Ljava/lang/String;I;\\)J"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/Math;\\.log:\\(D;\\)D"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/ProcessBuilder;\\.start:\\(;\\)Ljava/lang/Process"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/ProcessBuilder;\\.command:\\(\\[Ljava/lang/String;\\)Ljava/lang/ProcessBuilder"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/reflect/AccessibleObject;\\.setAccessible:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/reflect/AccessibleObject;\\.setAccessible:\\(\\[Ljava/lang/reflect/AccessibleObject;Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/reflect/Array;\\.set:\\(Ljava/lang/Object;I;Ljava/lang/Object;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/reflect/Field;\\.set:\\(Ljava/lang/Object;Ljava/lang/Object;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/reflect/Method;\\.invoke:\\(Ljava/lang/Object;\\[Ljava/lang/Object;\\)Ljava/lang/Object"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/Short;\\.parseShort:\\(Ljava/lang/String;\\)S"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/String;\\.startsWith:\\(Ljava/lang/String;\\)Z"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/String;\\.replace:\\(C;C;\\)Ljava/lang/String"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/String;\\.substring:\\(I;I;\\)Ljava/lang/String"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/StringBuffer;\\.setCharAt:\\(I;C;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/StringBuffer;\\.setLength:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/StringBuilder;\\.replace:\\(I;I;Ljava/lang/String;\\)Ljava/lang/StringBuilder"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/StringBuilder;\\.setCharAt:\\(I;C;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/StringBuilder;\\.setLength:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/System;\\.setProperty:\\(Ljava/lang/String;Ljava/lang/String;\\)Ljava/lang/String"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/Thread;\\.setContextClassLoader:\\(Ljava/lang/ClassLoader;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/Thread;\\.setDaemon:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/Thread;\\.setDefaultUncaughtExceptionHandler:\\(Ljava/lang/Thread/UncaughtExceptionHandler;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/Thread;\\.setName:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/Thread;\\.setPriority:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/Thread;\\.setUncaughtExceptionHandler:\\(Ljava/lang/Thread/UncaughtExceptionHandler;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/ThreadLocal;\\.set:\\(Ljava/lang/Object;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/lang/Throwable;\\.setStackTrace:\\(\\[Ljava/lang/StackTraceElement;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/math/BigDecimal;\\.setScale:\\(I;I;\\)Ljava/math/BigDecimal"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/math/BigInteger;\\.setBit:\\(I;\\)Ljava/math/BigInteger"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/CookieHandler;\\.setDefault:\\(Ljava/net/CookieHandler;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/DatagramPacket;\\.setAddress:\\(Ljava/net/InetAddress;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/DatagramPacket;\\.setData:\\(\\[B;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/DatagramPacket;\\.setLength:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/DatagramPacket;\\.setPort:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/DatagramSocket;\\.bind:\\(Ljava/net/SocketAddress;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/DatagramSocket;\\.send:\\(Ljava/net/DatagramPacket;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/DatagramSocket;\\.setSoTimeout:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/HttpURLConnection;\\.getInputStream:\\(;\\)Ljava/io/InputStream"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/HttpURLConnection;\\.getOutputStream:\\(;\\)Ljava/io/OutputStream"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/HttpURLConnection;\\.connect:\\(;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/HttpURLConnection;\\.setChunkedStreamingMode:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/HttpURLConnection;\\.setFixedLengthStreamingMode:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/HttpURLConnection;\\.setInstanceFollowRedirects:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/HttpURLConnection;\\.setRequestMethod:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/ServerSocket;\\.bind:\\(Ljava/net/SocketAddress;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/ServerSocket;\\.setReceiveBufferSize:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/ServerSocket;\\.setSoTimeout:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/Socket;\\.bind:\\(Ljava/net/SocketAddress;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/Socket;\\.setKeepAlive:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/Socket;\\.setReuseAddress:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/Socket;\\.setSocketImplFactory:\\(Ljava/net/SocketImplFactory;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/Socket;\\.setSoLinger:\\(Z;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/Socket;\\.setSoTimeout:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/Socket;\\.setTcpNoDelay:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/URL;\\.openConnection:\\(;\\)Ljava/net/URLConnection"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/URL;\\.setURLStreamHandlerFactory:\\(Ljava/net/URLStreamHandlerFactory;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/URLConnection;\\.getInputStream:\\(;\\)Ljava/io/InputStream"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/URLConnection;\\.setAllowUserInteraction:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/URLConnection;\\.setConnectTimeout:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/URLConnection;\\.setDefaultUseCaches:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/URLConnection;\\.setDoInput:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/URLConnection;\\.setDoOutput:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/URLConnection;\\.setIfModifiedSince:\\(J;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/URLConnection;\\.setReadTimeout:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/URLConnection;\\.setRequestProperty:\\(Ljava/lang/String;Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/net/URLConnection;\\.setUseCaches:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/nio/ByteBuffer;\\.put:\\(\\[B;I;I;\\)Ljava/nio/ByteBuffer"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/security/SecureRandom;\\.setSeed:\\(\\[B;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/text/Collator;\\.setDecomposition:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/text/Collator;\\.setStrength:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/text/DateFormat;\\.parse:\\(Ljava/lang/String;\\)Ljava/util/Date"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/text/DateFormat;\\.setCalendar:\\(Ljava/util/Calendar;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/text/DateFormat;\\.setTimeZone:\\(Ljava/util/TimeZone;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/text/DecimalFormat;\\.setMinimumIntegerDigits:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/text/DecimalFormat;\\.setParseBigDecimal:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/text/NumberFormat;\\.parse:\\(Ljava/lang/String;\\)Ljava/lang/Number"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/text/NumberFormat;\\.setGroupingUsed:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/text/NumberFormat;\\.setMinimumIntegerDigits:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/text/NumberFormat;\\.setParseIntegerOnly:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/text/SimpleDateFormat;\\.set2DigitYearStart:\\(Ljava/util/Date;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/ArrayList;\\.set:\\(I;Ljava/lang/Object;\\)Ljava/lang/Object"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/BitSet;\\.set:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/BitSet;\\.set:\\(I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/Calendar;\\.set:\\(I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/Calendar;\\.set:\\(I;I;I;I;I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/Calendar;\\.setFirstDayOfWeek:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/Calendar;\\.setLenient:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/Calendar;\\.setMinimalDaysInFirstWeek:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/Calendar;\\.setTime:\\(Ljava/util/Date;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/Calendar;\\.setTimeInMillis:\\(J;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/Calendar;\\.setTimeZone:\\(Ljava/util/TimeZone;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/concurrent/atomic/AtomicBoolean;\\.set:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/concurrent/atomic/AtomicInteger;\\.set:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/concurrent/atomic/AtomicReference;\\.set:\\(Ljava/lang/Object;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/concurrent/ConcurrentHashMap;\\.put:\\(Ljava/lang/Object;Ljava/lang/Object;\\)Ljava/lang/Object"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/concurrent/Executors;\\.newSingleThreadExecutor:\\(Ljava/util/concurrent/ThreadFactory;\\)Ljava/util/concurrent/ExecutorService"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/concurrent/ScheduledThreadPoolExecutor;\\.execute:\\(Ljava/lang/Runnable;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/concurrent/ThreadPoolExecutor;\\.submit:\\(Ljava/lang/Runnable;\\)Ljava/util/concurrent/Future"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/concurrent/ThreadPoolExecutor;\\.afterExecute:\\(Ljava/lang/Runnable;Ljava/lang/Throwable;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/concurrent/ThreadPoolExecutor;\\.beforeExecute:\\(Ljava/lang/Thread;Ljava/lang/Runnable;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/concurrent/ThreadPoolExecutor;\\.execute:\\(Ljava/lang/Runnable;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/concurrent/ThreadPoolExecutor;\\.setRejectedExecutionHandler:\\(Ljava/util/concurrent/RejectedExecutionHandler;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/concurrent/ThreadPoolExecutor;\\.setThreadFactory:\\(Ljava/util/concurrent/ThreadFactory;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/Date;\\.setTime:\\(J;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/EnumMap;\\.put:\\(Ljava/lang/Enum;Ljava/lang/Object;\\)Ljava/lang/Object"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/GregorianCalendar;\\.setGregorianChange:\\(Ljava/util/Date;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/HashMap;\\.put:\\(Ljava/lang/Object;Ljava/lang/Object;\\)Ljava/lang/Object"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/HashSet;\\.add:\\(Ljava/lang/Object;\\)Z"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/logging/Logger;\\.log:\\(Ljava/util/logging/Level;Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/logging/Logger;\\.log:\\(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Object;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/logging/Logger;\\.log:\\(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/logging/Logger;\\.log:\\(Ljava/util/logging/LogRecord;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/logging/Logger;\\.setLevel:\\(Ljava/util/logging/Level;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/logging/Logger;\\.setUseParentHandlers:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/logging/LogManager;\\.addLogger:\\(Ljava/util/logging/Logger;\\)Z"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/logging/LogRecord;\\.setSourceClassName:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/logging/LogRecord;\\.setSourceMethodName:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/logging/LogRecord;\\.setThrown:\\(Ljava/lang/Throwable;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/Properties;\\.setProperty:\\(Ljava/lang/String;Ljava/lang/String;\\)Ljava/lang/Object"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/regex/Matcher;\\.quoteReplacement:\\(Ljava/lang/String;\\)Ljava/lang/String"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/regex/Matcher;\\.replaceAll:\\(Ljava/lang/String;\\)Ljava/lang/String"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/regex/Matcher;\\.replaceFirst:\\(Ljava/lang/String;\\)Ljava/lang/String"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/regex/Matcher;\\.appendReplacement:\\(Ljava/lang/StringBuffer;Ljava/lang/String;\\)Ljava/util/regex/Matcher"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/TreeMap;\\.put:\\(Ljava/lang/Object;Ljava/lang/Object;\\)Ljava/lang/Object"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/TreeSet;\\.add:\\(Ljava/lang/Object;\\)Z"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/Vector;\\.set:\\(I;Ljava/lang/Object;\\)Ljava/lang/Object"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/Vector;\\.setSize:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/zip/CRC32;\\.update:\\(\\[B;I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/zip/CRC32;\\.update:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/zip/Deflater;\\.setInput:\\(\\[B;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/zip/Deflater;\\.setLevel:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/zip/GZIPOutputStream;\\.write:\\(\\[B;I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/zip/Inflater;\\.setInput:\\(\\[B;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/zip/Inflater;\\.setInput:\\(\\[B;I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/zip/ZipEntry;\\.setSize:\\(J;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/zip/ZipEntry;\\.setTime:\\(J;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/zip/ZipOutputStream;\\.setMethod:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljava/util/zip/ZipOutputStream;\\.write:\\(\\[B;I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljavax/mail/Transport;\\.sendMessage:\\(Ljavax/mail/Message;\\[Ljavax/mail/Address;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljavax/net/ssl/HttpsURLConnection;\\.setDefaultSSLSocketFactory:\\(Ljavax/net/ssl/SSLSocketFactory;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljavax/net/ssl/HttpsURLConnection;\\.setSSLSocketFactory:\\(Ljavax/net/ssl/SSLSocketFactory;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljavax/xml/parsers/DocumentBuilder;\\.parse:\\(Ljava/io/File;\\)Lorg/w3c/dom/Document"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljavax/xml/parsers/DocumentBuilder;\\.parse:\\(Ljava/io/InputStream;\\)Lorg/w3c/dom/Document"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljavax/xml/parsers/DocumentBuilderFactory;\\.setCoalescing:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljavax/xml/parsers/DocumentBuilderFactory;\\.setIgnoringComments:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljavax/xml/parsers/DocumentBuilderFactory;\\.setNamespaceAware:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Ljavax/xml/parsers/DocumentBuilderFactory;\\.setValidating:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/auth/AuthSchemeRegistry;\\.register:\\(Ljava/lang/String;Lorg/apache/http/auth/AuthSchemeFactory;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/auth/AuthState;\\.setAuthScheme:\\(Lorg/apache/http/auth/AuthScheme;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/auth/AuthState;\\.setAuthScope:\\(Lorg/apache/http/auth/AuthScope;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/auth/AuthState;\\.setCredentials:\\(Lorg/apache/http/auth/Credentials;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/auth/params/AuthParams;\\.setCredentialCharset:\\(Lorg/apache/http/params/HttpParams;Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/client/HttpClient;\\.execute:\\(Lorg/apache/http/client/methods/HttpUriRequest;\\)Lorg/apache/http/HttpResponse"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/client/methods/HttpEntityEnclosingRequestBase;\\.setEntity:\\(Lorg/apache/http/HttpEntity;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/client/params/HttpClientParams;\\.setCookiePolicy:\\(Lorg/apache/http/params/HttpParams;Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/client/params/HttpClientParams;\\.setRedirecting:\\(Lorg/apache/http/params/HttpParams;Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/client/utils/URLEncodedUtils;\\.parse:\\(Ljava/net/URI;Ljava/lang/String;\\)Ljava/util/List"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/client/utils/URLEncodedUtils;\\.parse:\\(Ljava/util/List;Ljava/util/Scanner;Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/conn/params/ConnManagerParams;\\.setMaxConnectionsPerRoute:\\(Lorg/apache/http/params/HttpParams;Lorg/apache/http/conn/params/ConnPerRoute;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/conn/params/ConnManagerParams;\\.setMaxTotalConnections:\\(Lorg/apache/http/params/HttpParams;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/conn/params/ConnManagerParams;\\.setTimeout:\\(Lorg/apache/http/params/HttpParams;J;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/conn/params/ConnPerRouteBean;\\.setDefaultMaxPerRoute:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/conn/params/ConnPerRouteBean;\\.setMaxForRoute:\\(Lorg/apache/http/conn/routing/HttpRoute;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/conn/params/ConnRouteParams;\\.setDefaultProxy:\\(Lorg/apache/http/params/HttpParams;Lorg/apache/http/HttpHost;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/conn/scheme/SchemeRegistry;\\.register:\\(Lorg/apache/http/conn/scheme/Scheme;\\)Lorg/apache/http/conn/scheme/Scheme"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/conn/ssl/SSLSocketFactory;\\.setHostnameVerifier:\\(Lorg/apache/http/conn/ssl/X509HostnameVerifier;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/cookie/CookieSpecRegistry;\\.register:\\(Ljava/lang/String;Lorg/apache/http/cookie/CookieSpecFactory;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/entity/AbstractHttpEntity;\\.setContentEncoding:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/entity/AbstractHttpEntity;\\.setContentEncoding:\\(Lorg/apache/http/Header;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/entity/AbstractHttpEntity;\\.setContentType:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/entity/AbstractHttpEntity;\\.setContentType:\\(Lorg/apache/http/Header;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/entity/BasicHttpEntity;\\.setContent:\\(Ljava/io/InputStream;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/entity/BasicHttpEntity;\\.setContentLength:\\(J;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/entity/HttpEntityWrapper;\\.writeTo:\\(Ljava/io/OutputStream;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/entity/InputStreamEntity;\\.writeTo:\\(Ljava/io/OutputStream;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/entity/SerializableEntity;\\.createBytes:\\(Ljava/io/Serializable;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/AbstractHttpClientConnection;\\.createResponseParser:\\(Lorg/apache/http/io/SessionInputBuffer;Lorg/apache/http/HttpResponseFactory;Lorg/apache/http/params/HttpParams;\\)Lorg/apache/http/io/HttpMessageParser"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/AbstractHttpServerConnection;\\.createRequestParser:\\(Lorg/apache/http/io/SessionInputBuffer;Lorg/apache/http/HttpRequestFactory;Lorg/apache/http/params/HttpParams;\\)Lorg/apache/http/io/HttpMessageParser"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/client/AbstractHttpClient;\\.execute:\\(Lorg/apache/http/client/methods/HttpUriRequest;Lorg/apache/http/client/ResponseHandler;Lorg/apache/http/protocol/HttpContext;\\)Ljava/lang/Object"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/client/AbstractHttpClient;\\.execute:\\(Lorg/apache/http/HttpHost;Lorg/apache/http/HttpRequest;Lorg/apache/http/client/ResponseHandler;Lorg/apache/http/protocol/HttpContext;\\)Ljava/lang/Object"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/client/AbstractHttpClient;\\.execute:\\(Lorg/apache/http/client/methods/HttpUriRequest;Lorg/apache/http/protocol/HttpContext;\\)Lorg/apache/http/HttpResponse"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/client/AbstractHttpClient;\\.execute:\\(Lorg/apache/http/HttpHost;Lorg/apache/http/HttpRequest;Lorg/apache/http/protocol/HttpContext;\\)Lorg/apache/http/HttpResponse"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/client/DefaultHttpClient;\\.execute:\\(Lorg/apache/http/client/methods/HttpUriRequest;\\)Lorg/apache/http/HttpResponse"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/client/DefaultHttpClient;\\.setDefaultHttpParams:\\(Lorg/apache/http/params/HttpParams;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/client/DefaultRequestDirector;\\.tryExecute:\\(Lorg/apache/http/impl/client/RoutedRequest;Lorg/apache/http/protocol/HttpContext;\\)Lorg/apache/http/HttpResponse"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/client/DefaultRequestDirector;\\.handleResponse:\\(Lorg/apache/http/impl/client/RoutedRequest;Lorg/apache/http/HttpResponse;Lorg/apache/http/protocol/HttpContext;\\)Lorg/apache/http/impl/client/RoutedRequest"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/client/EntityEnclosingRequestWrapper;\\.setEntity:\\(Lorg/apache/http/HttpEntity;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/client/RequestWrapper;\\.setURI:\\(Ljava/net/URI;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/conn/AbstractPoolEntry;\\.setState:\\(Ljava/lang/Object;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/conn/tsccm/BasicPoolEntry;\\.updateExpiry:\\(J;Ljava/util/concurrent/TimeUnit;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/conn/tsccm/ConnPoolByRoute;\\.setMaxTotalConnections:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/conn/tsccm/WaitingThreadAborter;\\.setWaitingThread:\\(Lorg/apache/http/impl/conn/tsccm/WaitingThread;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/cookie/BasicClientCookie;\\.setAttribute:\\(Ljava/lang/String;Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/cookie/BasicClientCookie;\\.setComment:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/cookie/BasicClientCookie;\\.setDomain:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/cookie/BasicClientCookie;\\.setExpiryDate:\\(Ljava/util/Date;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/cookie/BasicClientCookie;\\.setPath:\\(Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/cookie/BasicClientCookie;\\.setSecure:\\(Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/cookie/BasicClientCookie;\\.setVersion:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/cookie/BasicClientCookie2;\\.setPorts:\\(\\[I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/cookie/DateUtils/DateFormatHolder;\\.formatFor:\\(Ljava/lang/String;\\)Ljava/text/SimpleDateFormat"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/cookie/DateUtils;\\.parseDate:\\(Ljava/lang/String;\\)Ljava/util/Date"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/cookie/DateUtils;\\.parseDate:\\(Ljava/lang/String;\\[Ljava/lang/String;\\)Ljava/util/Date"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/cookie/NetscapeDraftHeaderParser;\\.parseHeader:\\(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;\\)Lorg/apache/http/HeaderElement"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/cookie/NetscapeDraftHeaderParser;\\.parseNameValuePair:\\(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;\\)Lorg/apache/http/NameValuePair"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/cookie/NetscapeDraftSpec;\\.parse:\\(Lorg/apache/http/Header;Lorg/apache/http/cookie/CookieOrigin;\\)Ljava/util/List"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/cookie/RFC2965PortAttributeHandler;\\.parsePortAttribute:\\(Ljava/lang/String;\\)\\[I"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/EnglishReasonPhraseCatalog;\\.setReason:\\(I;Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/entity/EntitySerializer;\\.serialize:\\(Lorg/apache/http/io/SessionOutputBuffer;Lorg/apache/http/HttpMessage;Lorg/apache/http/HttpEntity;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/io/AbstractMessageParser;\\.parseHeaders:\\(Lorg/apache/http/io/SessionInputBuffer;I;I;Lorg/apache/http/message/LineParser;\\)\\[Lorg/apache/http/Header"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/io/AbstractMessageParser;\\.parseHeaders:\\(Lorg/apache/http/io/SessionInputBuffer;I;I;Lorg/apache/http/message/LineParser;Ljava/util/List;\\)\\[Lorg/apache/http/Header"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/io/AbstractSessionOutputBuffer;\\.write:\\(\\[B;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/io/AbstractSessionOutputBuffer;\\.write:\\(\\[B;I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/io/ChunkedOutputStream;\\.flushCacheWithAppend:\\(\\[B;I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/io/ContentLengthOutputStream;\\.write:\\(\\[B;I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/impl/io/IdentityOutputStream;\\.write:\\(\\[B;I;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/message/BasicHeaderValueParser;\\.parseHeaderElement:\\(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;\\)Lorg/apache/http/HeaderElement"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/message/BasicHeaderValueParser;\\.parseElements:\\(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;\\)\\[Lorg/apache/http/HeaderElement"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/message/BasicHeaderValueParser;\\.parseNameValuePair:\\(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;\\)Lorg/apache/http/NameValuePair"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/message/BasicHeaderValueParser;\\.parseNameValuePair:\\(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;\\[C;\\)Lorg/apache/http/NameValuePair"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/message/BasicHeaderValueParser;\\.parseParameters:\\(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;\\)\\[Lorg/apache/http/NameValuePair"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/message/BasicHttpResponse;\\.setEntity:\\(Lorg/apache/http/HttpEntity;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/message/BasicLineParser;\\.parseProtocolVersion:\\(Lorg/apache/http/util/CharArrayBuffer;Lorg/apache/http/message/ParserCursor;\\)Lorg/apache/http/ProtocolVersion"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/message/HeaderGroup;\\.setHeaders:\\(\\[Lorg/apache/http/Header;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/message/HeaderGroup;\\.updateHeader:\\(Lorg/apache/http/Header;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/message/ParserCursor;\\.updatePos:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/params/BasicHttpParams;\\.setParameter:\\(Ljava/lang/String;Ljava/lang/Object;\\)Lorg/apache/http/params/HttpParams"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/params/BasicHttpParams;\\.setParameters:\\(\\[Ljava/lang/String;Ljava/lang/Object;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/params/HttpConnectionParams;\\.setConnectionTimeout:\\(Lorg/apache/http/params/HttpParams;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/params/HttpConnectionParams;\\.setLinger:\\(Lorg/apache/http/params/HttpParams;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/params/HttpConnectionParams;\\.setSocketBufferSize:\\(Lorg/apache/http/params/HttpParams;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/params/HttpConnectionParams;\\.setSoTimeout:\\(Lorg/apache/http/params/HttpParams;I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/params/HttpConnectionParams;\\.setStaleCheckingEnabled:\\(Lorg/apache/http/params/HttpParams;Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/params/HttpConnectionParams;\\.setTcpNoDelay:\\(Lorg/apache/http/params/HttpParams;Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/params/HttpProtocolParams;\\.setContentCharset:\\(Lorg/apache/http/params/HttpParams;Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/params/HttpProtocolParams;\\.setHttpElementCharset:\\(Lorg/apache/http/params/HttpParams;Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/params/HttpProtocolParams;\\.setUseExpectContinue:\\(Lorg/apache/http/params/HttpParams;Z;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/params/HttpProtocolParams;\\.setUserAgent:\\(Lorg/apache/http/params/HttpParams;Ljava/lang/String;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/params/HttpProtocolParams;\\.setVersion:\\(Lorg/apache/http/params/HttpParams;Lorg/apache/http/ProtocolVersion;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/protocol/BasicHttpContext;\\.setAttribute:\\(Ljava/lang/String;Ljava/lang/Object;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/protocol/HttpRequestExecutor;\\.doSendRequest:\\(Lorg/apache/http/HttpRequest;Lorg/apache/http/HttpClientConnection;Lorg/apache/http/protocol/HttpContext;\\)Lorg/apache/http/HttpResponse"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/protocol/HttpRequestExecutor;\\.execute:\\(Lorg/apache/http/HttpRequest;Lorg/apache/http/HttpClientConnection;Lorg/apache/http/protocol/HttpContext;\\)Lorg/apache/http/HttpResponse"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/protocol/HttpService;\\.setConnReuseStrategy:\\(Lorg/apache/http/ConnectionReuseStrategy;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/protocol/HttpService;\\.setHttpProcessor:\\(Lorg/apache/http/protocol/HttpProcessor;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/protocol/HttpService;\\.setResponseFactory:\\(Lorg/apache/http/HttpResponseFactory;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/protocol/UriPatternMatcher;\\.setHandlers:\\(Ljava/util/Map;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/protocol/UriPatternMatcher;\\.setObjects:\\(Ljava/util/Map;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/apache/http/util/ByteArrayBuffer;\\.setLength:\\(I;\\)V"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/json/JSONObject;\\.toString:\\(I;\\)Ljava/lang/String"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/json/JSONObject;\\.put:\\(Ljava/lang/String;Z;\\)Lorg/json/JSONObject"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/json/JSONObject;\\.put:\\(Ljava/lang/String;D;\\)Lorg/json/JSONObject"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/json/JSONObject;\\.put:\\(Ljava/lang/String;I;\\)Lorg/json/JSONObject"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/json/JSONObject;\\.put:\\(Ljava/lang/String;Ljava/lang/Object;\\)Lorg/json/JSONObject"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/json/JSONObject;\\.put:\\(Ljava/lang/String;J;\\)Lorg/json/JSONObject"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/json/JSONObject;\\.putOpt:\\(Ljava/lang/String;Ljava/lang/Object;\\)Lorg/json/JSONObject"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/mozilla/Ljavascript/Function;\\.call:\\(Lorg/mozilla/Ljavascript/Context;Lorg/mozilla/Ljavascript/Scriptable;Lorg/mozilla/Ljavascript/Scriptable;\\[Ljava/lang/Object;\\)Ljava/lang/Object"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/springframework/web/client/RestTemplate;\\.exchange:\\(Ljava/lang/String;Lorg/springframework/http/HttpMethod;Lorg/springframework/http/HttpEntity;Ljava/lang/Class;\\[Ljava/lang/Object;\\)Lorg/springframework/http/ResponseEntity"
+    },
+{ "constraint": "signature",
+   "pattern": "Lorg/xml/sax/InputSource;\\.setSystemId:\\(Ljava/lang/String;\\)V"
+    }
+
+      	     ],
+      	     }
+      ],
+      "model": {
+        "for_all_parameters": [
+          {
+            "variable": "x",
+            "where": [],
+            "sinks": [
+              {
+                "kind": "UltraSink",
+                "port": "Argument(x)"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

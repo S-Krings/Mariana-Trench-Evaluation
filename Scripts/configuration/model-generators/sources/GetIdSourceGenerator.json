@@ -1,0 +1,41 @@
+{
+  "model_generators": [
+    {
+      "find": "methods",
+      "where": [
+        {
+        "constraint": "parent",
+              "inner": {
+                "constraint": "name",
+                "pattern": "Landroid.telephony.TelephonyManager;"
+              }
+        },
+        {
+          "constraint": "any_of",
+          "inners": [
+		{
+		  "constraint": "name",
+		  "pattern": "getDeviceId"
+		},
+		{
+		  "constraint": "name",
+		  "pattern": "getSimSerialNumber"
+		}
+      	     ],
+      	     }
+      ],
+      "model": {
+        "modes": [
+          "no-join-virtual-overrides"
+        ],
+        "sources": [
+          {
+            "kind": "GetId",
+            "port": "Return"
+          }
+        ]
+      },
+      "verbosity": 1
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "model_generators": [
+    {
+      "find": "methods",
+      "where": [
+        {
+          "constraint": "any_of",
+          "inners": [
+		{
+		"constraint": "parent",
+		      "inner": {
+		        "constraint": "name",
+		        "pattern": "Landroid.location.Location;"
+		      }
+		},
+		{
+		"constraint": "parent",
+		      "inner": {
+		        "constraint": "name",
+		        "pattern": "Landroid.location.LocationManager;"
+		      }
+		 }
+	      ]
+	 },
+	 {
+          "constraint": "any_of",
+          "inners": [
+		{
+		  "constraint": "any_of",
+		  "inners": [
+			{
+			  "constraint": "name",
+			  "pattern": "getLongitude"
+			},
+			{
+			  "constraint": "name",
+			  "pattern": "getLatitude"
+			}
+	      	     ],
+	      	},
+		{
+		  "constraint": "name",
+		  "pattern": "getLastKnownLocation"
+      	        }
+	     ]
+	 },
+      ],
+      "model": {
+        "sources": [
+          {
+            "kind": "GetLocation",
+            "port": "Return"
+          }
+        ]
+      },
+      "verbosity": 1
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "model_generators": [
+    {
+      "find": "fields",
+	"where": [
+	 {
+	  "constraint": "name",
+	  "pattern": "getDeviceId"
+      	 }
+        ],
+	"model": {
+	  "sources" : [
+	    {
+	      "kind": "EditTextSource"
+	    }
+	  ]
+	},
+      "verbosity": 1
+    },
+    {
+      "find": "fields",
+	"where": [
+	 {
+	  "constraint": "name",
+	  "pattern": "mEdit"
+      	 }
+        ],
+	"model": {
+	  "sources" : [
+	    {
+	      "kind": "EditTextSource"
+	    }
+	  ]
+	},
+      "verbosity": 1
+    }
+  ]
+}

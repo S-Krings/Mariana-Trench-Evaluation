@@ -1,0 +1,22 @@
+{
+  "model_generators": [
+    {
+      "find": "methods",
+      "where": [
+        {
+          "constraint": "name",
+          "pattern": "getSecret"
+        }
+      ],
+      "model": {
+        "sources": [
+          {
+            "kind": "DataContainerSecret",
+            "port": "Return"
+          }
+        ]
+      },
+     "verbosity": 1
+    }
+  ]
+}
